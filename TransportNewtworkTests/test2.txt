@@ -1,0 +1,11 @@
+O Q 3
+S O 3
+Q T 2
+S P 4
+O P 2
+P R 2
+Q R 4
+R T 3
+Z R 1
+P Z 2
+Z T 3

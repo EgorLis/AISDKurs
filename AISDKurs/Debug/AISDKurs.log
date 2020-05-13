@@ -1,0 +1,102 @@
+﻿  main.cpp
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(26,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(38,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(42,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(44,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(54,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(63,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(71,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(87,10): warning C4552: "*": результат выражения не используется
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(88,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(95,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(101,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(122,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(138,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(139,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(145,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(149,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(151,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(154,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(161,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(164,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(169,19): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(175,19): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(178,11): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(185,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(189,22): warning C4018: <: несоответствие типов со знаком и без знака
+  stream.cpp
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(26,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(38,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(42,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(44,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(54,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(63,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(71,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(87,10): warning C4552: "*": результат выражения не используется
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(88,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(95,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(101,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(122,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(138,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(139,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(145,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(149,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(151,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(154,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(161,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(164,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(169,19): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(175,19): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(178,11): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(185,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(189,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.cpp(37,26): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.cpp(79,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.cpp(103,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.cpp(113,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.cpp(145,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.cpp(157,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.cpp(162,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.cpp(164,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.cpp(170,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.cpp(181,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.cpp(197,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.cpp(222,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.cpp(224,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.cpp(228,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\List.cpp(88,40): warning C4018: <=: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\List.cpp(87): message : во время компиляции функции-члена класс шаблон "T List<T>::at(size_t)"
+          with
+          [
+              T=stream::string *
+          ]
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.cpp(90): message : выполняется компиляция ссылки на экземпляр шаблон функции "T List<T>::at(size_t)"
+          with
+          [
+              T=stream::string *
+          ]
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(17): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "List<stream::string *>"
+C:\Users\User\source\repos\AISDKurs\AISDKurs\List.cpp(97,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\List.cpp(178,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\source\repos\AISDKurs\AISDKurs\List.cpp(175): message : во время компиляции функции-члена класс шаблон "void List<char>::set(size_t,T)"
+          with
+          [
+              T=char
+          ]
+C:\Users\User\source\repos\AISDKurs\AISDKurs\List.cpp(113): message : выполняется компиляция ссылки на экземпляр шаблон функции "void List<char>::set(size_t,T)"
+          with
+          [
+              T=char
+          ]
+C:\Users\User\source\repos\AISDKurs\AISDKurs\List.cpp(17): message : во время компиляции функции-члена класс шаблон "void List<char>::push_back(T)"
+          with
+          [
+              T=char
+          ]
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.cpp(63): message : выполняется компиляция ссылки на экземпляр шаблон функции "void List<char>::push_back(T)"
+          with
+          [
+              T=char
+          ]
+  Создание кода...
+  AISDKurs.vcxproj -> C:\Users\User\source\repos\AISDKurs\Debug\AISDKurs.exe
