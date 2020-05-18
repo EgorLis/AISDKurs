@@ -49,5 +49,4 @@ public:
 	{
 		return this->All_vertex.get_size();
 	}
-		
 };

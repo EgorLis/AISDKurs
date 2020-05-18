@@ -175,7 +175,10 @@
     <Text Include="10vertextest5.txt" />
     <Text Include="10vertextest6.txt" />
     <Text Include="10vertextest7.txt" />
+    <Text Include="GraphWithoutS.txt" />
     <Text Include="graph_with_cycle.txt" />
+    <Text Include="inputWithMinus.txt" />
+    <Text Include="NoWayFromStoT.txt" />
     <Text Include="test1.txt" />
     <Text Include="test2.txt" />
     <Text Include="test3.txt" />

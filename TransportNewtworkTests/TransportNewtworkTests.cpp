@@ -20,6 +20,42 @@ namespace TransportNewtworkTests
 			file.close();
 		}
 
+		TEST_METHOD(TestInputGraphWithoutS)
+		{
+			stream* matrix;
+			matrix = new stream();
+			ifstream file;
+			file.open("C:\\Users\\User\\source\\repos\\AISDKurs\\TransportNewtworkTests\\GraphWithoutS.txt");
+			matrix->input(file);
+			matrix->SetVertexCount();
+			auto  funPtr = [matrix] {matrix->CreateAdjacencyMatrix();};
+			Assert::ExpectException<std::out_of_range>(funPtr);
+			file.close();
+		}
+
+		TEST_METHOD(TestInputWithMinus)
+		{
+			stream* matrix;
+			matrix = new stream();
+			auto  funPtr = [matrix] {
+				ifstream file;
+				file.open("C:\\Users\\User\\source\\repos\\AISDKurs\\TransportNewtworkTests\\inputWithMinus.txt");
+				matrix->input(file); };
+			Assert::ExpectException<std::out_of_range>(funPtr);
+		}
+
+		TEST_METHOD(TestInputNoWayFromStoT)
+		{
+			stream matrix;
+			ifstream file;
+			file.open("C:\\Users\\User\\source\\repos\\AISDKurs\\TransportNewtworkTests\\NoWayFromStoT.txt");
+			matrix.input(file);
+			matrix.SetVertexCount();
+			matrix.CreateAdjacencyMatrix();
+			Assert::IsFalse(matrix.TrueTransport_network());
+			file.close();
+		}
+
 		TEST_METHOD(TestSetVertexCount1)
 		{
 			stream matrix;

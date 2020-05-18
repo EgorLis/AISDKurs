@@ -67,5 +67,14 @@
     <Text Include="graph_with_cycle.txt">
       <Filter>Файлы ресурсов</Filter>
     </Text>
+    <Text Include="inputWithMinus.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="NoWayFromStoT.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="GraphWithoutS.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
   </ItemGroup>
 </Project>
