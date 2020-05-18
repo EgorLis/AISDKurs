@@ -1,0 +1,12 @@
+S W 15
+W O 12
+S R 10
+R D 3
+W Z 5
+D N 8
+Z N 7
+N T 20
+O P 15
+P Q 8
+P Z 5
+Q T 10

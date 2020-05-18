@@ -1,0 +1,12 @@
+S O 50
+O R 20
+R W 10
+R D 15
+W Z 5
+D N 8
+Z T 10
+N T 10
+O P 15
+P Q 8
+P Z 5
+Q T 10

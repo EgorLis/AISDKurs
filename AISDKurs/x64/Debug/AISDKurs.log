@@ -1,11 +1,8 @@
-﻿  main.cpp
-C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(46,1): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(50,1): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
-  stream.cpp
+﻿  stream.cpp
 C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(46,1): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
 C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.h(50,1): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
 C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.cpp(259,72): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
 C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.cpp(289,8): warning C4552: "*": результат выражения не используется
-C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.cpp(361,36): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
-  Создание кода...
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.cpp(339,41): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\User\source\repos\AISDKurs\AISDKurs\stream.cpp(361,53): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
   AISDKurs.vcxproj -> C:\Users\User\source\repos\AISDKurs\x64\Debug\AISDKurs.exe

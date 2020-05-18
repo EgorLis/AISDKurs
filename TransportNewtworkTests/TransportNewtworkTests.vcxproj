@@ -168,6 +168,14 @@
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="10vertextest1.txt" />
+    <Text Include="10vertextest2.txt" />
+    <Text Include="10vertextest3.txt" />
+    <Text Include="10vertextest4.txt" />
+    <Text Include="10vertextest5.txt" />
+    <Text Include="10vertextest6.txt" />
+    <Text Include="10vertextest7.txt" />
+    <Text Include="graph_with_cycle.txt" />
     <Text Include="test1.txt" />
     <Text Include="test2.txt" />
     <Text Include="test3.txt" />

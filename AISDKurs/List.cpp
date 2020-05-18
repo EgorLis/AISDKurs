@@ -148,18 +148,6 @@ template<typename T> void List<T>::print_to_console() { // вывод элементов списк
 	}
 }
 
-template<typename T> void List<T>::print_to_console_with_code() { // вывод элементов списка в консоль через разделитель, не использовать at bc
-	if (this->head != NULL) {
-		Node* current = head;
-		cout << endl;
-		for (int i = 0; i < Size; i++) {
-			cout << "|" << current->data << " - ";
-			current->code->print_to_console();
-			cout << endl;
-			current = current->Next;
-		}
-	}
-}
 template<typename T> void List<T>::clear() { // удаление всех элементов списка
 	if (head != NULL) {
 		Node* current = head;

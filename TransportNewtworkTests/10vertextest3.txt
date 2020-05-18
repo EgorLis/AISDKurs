@@ -1,0 +1,14 @@
+S O 20
+S R 20
+O W 5
+R W 5
+R D 3
+W Z 12
+D N 8
+Z Q 10
+Z T 10
+N T 10
+O P 15
+P Q 15
+P Z 5
+Q T 20

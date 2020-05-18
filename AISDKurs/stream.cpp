@@ -306,90 +306,90 @@ void stream::recurFind(int top, int end, int** color_matrix, bool& temp)
 		return;
 	}
 }
-void stream::push(int u, int v, int** f, int* e) //push stream to next vertex
+void stream::push(int previous_vertex, int next_vertex, int** flow, int* excess_flow) //push stream to next vertex
 {
-	int d;
-	if (e[u] < this->matrix[u][v] - f[u][v])
-		d = e[u];
+	int possible_flow;
+	if (excess_flow[previous_vertex] < this->matrix[previous_vertex][next_vertex] - flow[previous_vertex][next_vertex])
+		possible_flow = excess_flow[previous_vertex];
 	else
-		d = this->matrix[u][v] - f[u][v];
-	f[u][v] = f[u][v] + d;
-	f[v][u] = -f[u][v];
-	e[u] = e[u] - d;
-	e[v] = e[v] + d;
+		possible_flow = this->matrix[previous_vertex][next_vertex] - flow[previous_vertex][next_vertex];
+	flow[previous_vertex][next_vertex] = flow[previous_vertex][next_vertex] + possible_flow;
+	flow[next_vertex][previous_vertex] = -flow[previous_vertex][next_vertex];
+	excess_flow[previous_vertex] = excess_flow[previous_vertex] - possible_flow;
+	excess_flow[next_vertex] = excess_flow[next_vertex] + possible_flow;
 }
-bool stream::lift(int u, int* h, int** f, int max) //lift vertex
+bool stream::lift(int vertex, int* height_of_vertexes, int** flow, int max) //lift vertex
 {
-	int d = max;
+	int min_height = max;
 	for (int i = 0; i < this->All_vertex.get_size(); i++) {
-		if (this->matrix[u][i] - f[u][i] > 0) {
-			if (d > h[i])
-				d = h[i];
+		if (this->matrix[vertex][i] - flow[vertex][i] > 0) {
+			if (min_height > height_of_vertexes[i])
+				min_height = height_of_vertexes[i];
 		}
 	}
-	if (d == max)
+	if (min_height == max)
 		return false;
-	h[u] = d + 1;
+	height_of_vertexes[vertex] = min_height + 1;
 	return true;
 }
 int stream::FindMaxFlow() //pushing the pre-stream algorithm
 {
 	if (this->TrueTransport_network() != true)
 		throw std::out_of_range("wrong graph");
-	int max = -1;// maximum weight
+	int max = this->All_vertex.get_size()+1;// maximum weight
 	for (int i = 0; i < this->All_vertex.get_size(); i++)
 		for (int j = 0; j < this->All_vertex.get_size(); j++)
 			if (this->matrix[i][j] > max)
 				max = this->matrix[i][j];
 	max++;
-	int** f = new int* [this->All_vertex.get_size()]; //f - it is flow
+	int** flow = new int* [this->All_vertex.get_size()]; 
 	for (int i = 0; i < this->All_vertex.get_size(); i++)
 	{
-		f[i] = new int[this->All_vertex.get_size()];
+		flow[i] = new int[this->All_vertex.get_size()];
 	}
 	for (int i = 0; i < this->All_vertex.get_size(); i++)
 	{
 		for (int j = 0; j < this->All_vertex.get_size(); j++)
-			f[i][j] = 0;
+			flow[i][j] = 0;
 	}
 	for (int i = 1; i < this->All_vertex.get_size(); i++)
 	{
-		f[0][i] = this->matrix[0][i];
-		f[i][0] = -this->matrix[0][i];
+		flow[0][i] = this->matrix[0][i];
+		flow[i][0] = -this->matrix[0][i];
 	}
-	int* h = new int[this->All_vertex.get_size()]; //h- it is height
-	h[0] = this->All_vertex.get_size();
+	int* height_of_vertexes = new int[this->All_vertex.get_size()]; 
+	height_of_vertexes[0] = this->All_vertex.get_size();
 	for (int i = 1; i < this->All_vertex.get_size(); i++)
-		h[i] = 0;
-	int* e = new int[this->All_vertex.get_size()]; //excess flow
+		height_of_vertexes[i] = 0;
+	int* excess_flow = new int[this->All_vertex.get_size()];
 	for (int i = 1; i < this->All_vertex.get_size(); i++)
-		e[i] = f[0][i];
+		excess_flow[i] = flow[0][i];
 	for (; ;)
 	{
 		int i;
 		for (i = 1; i < this->All_vertex.get_size() - 1; i++)
-			if (e[i] > 0)
+			if (excess_flow[i] > 0)
 				break;
 		if (i == this->All_vertex.get_size() - 1)
 			break;
 		int j;
 		for (j = 0; j < this->All_vertex.get_size(); j++)
-			if (this->matrix[i][j] - f[i][j] > 0 && h[i] == h[j] + 1)
+			if (this->matrix[i][j] - flow[i][j] > 0 && height_of_vertexes[i] == height_of_vertexes[j] + 1)
 				break;
 		if (j < this->All_vertex.get_size())
-			push(i, j, f, e);
+			push(i, j, flow, excess_flow);
 		else
-			if (lift(i, h, f, max) != true)
+			if (lift(i, height_of_vertexes, flow, max) != true)
 				break;
 	}
-	int flow = 0;
+	int max_flow = 0;
 	for (int i = 0; i < this->All_vertex.get_size(); i++)
-		if (f[i][this->All_vertex.get_size() - 1])
-			flow += f[i][this->All_vertex.get_size() - 1];
-	cout << "Maximum flow equal - " << flow << endl;
+		if (flow[i][this->All_vertex.get_size() - 1])
+			max_flow += flow[i][this->All_vertex.get_size() - 1];
+	cout << "Maximum flow equal - " << max_flow << endl;
 	for (int i = 0; i < this->All_vertex.get_size(); i++)
 	{
-		delete[] f[i];
+		delete[] flow[i];
 	}
-	return flow;
+	return max_flow;
 }

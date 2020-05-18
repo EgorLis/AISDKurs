@@ -1,0 +1,14 @@
+S O 6
+S R 7
+S W 5
+R W 5
+R D 3
+W Z 5
+D N 8
+D Z 4
+Z T 12
+N T 6
+O P 15
+P Q 8
+P Z 5
+Q T 4

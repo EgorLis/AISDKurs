@@ -36,7 +36,6 @@ public:
 	void remove(int k); // удаление элемента по индексу bc
 	size_t get_size(); // получение размера списка bc
 	void print_to_console(); // вывод элементов списка в консоль через разделитель, не использовать at bc
-	void print_to_console_with_code();
 	void clear();  // удаление всех элементов списка
 	void set(size_t k, T obj);  // замена элемента по индексу на передаваемый элемент 
 	bool isEmpty(); // проверка на пустоту списка bc
